@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C2D296D2A96FF6C0056F3E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C2D296C2A96FF6C0056F3E4 /* GoogleService-Info.plist */; };
 		3CDB2D232A95DECF00030EDF /* ios_roamantik_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2D222A95DECF00030EDF /* ios_roamantik_appApp.swift */; };
 		3CDB2D252A95DECF00030EDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2D242A95DECF00030EDF /* ContentView.swift */; };
 		3CDB2D272A95DED000030EDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDB2D262A95DED000030EDF /* Assets.xcassets */; };
@@ -16,7 +17,6 @@
 		3CDB2D392A95DED000030EDF /* ios_roamantik_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2D382A95DED000030EDF /* ios_roamantik_appTests.swift */; };
 		3CDB2D432A95DED000030EDF /* ios_roamantik_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2D422A95DED000030EDF /* ios_roamantik_appUITests.swift */; };
 		3CDB2D452A95DED000030EDF /* ios_roamantik_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2D442A95DED000030EDF /* ios_roamantik_appUITestsLaunchTests.swift */; };
-		3CDB2D522A95DF6E00030EDF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CDB2D512A95DF6D00030EDF /* GoogleService-Info.plist */; };
 		3CDB2D552A95E08B00030EDF /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3CDB2D542A95E08B00030EDF /* FirebaseAnalytics */; };
 		3CDB2D572A95E08B00030EDF /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 3CDB2D562A95E08B00030EDF /* FirebaseAnalyticsOnDeviceConversion */; };
 		3CDB2D592A95E08B00030EDF /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3CDB2D582A95E08B00030EDF /* FirebaseAnalyticsSwift */; };
@@ -91,6 +91,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C2D296C2A96FF6C0056F3E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3CDB2D1F2A95DECF00030EDF /* ios_roamantik_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_roamantik_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CDB2D222A95DECF00030EDF /* ios_roamantik_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_roamantik_appApp.swift; sourceTree = "<group>"; };
 		3CDB2D242A95DECF00030EDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,7 +104,6 @@
 		3CDB2D3E2A95DED000030EDF /* ios_roamantik_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_roamantik_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CDB2D422A95DED000030EDF /* ios_roamantik_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_roamantik_appUITests.swift; sourceTree = "<group>"; };
 		3CDB2D442A95DED000030EDF /* ios_roamantik_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_roamantik_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3CDB2D512A95DF6D00030EDF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3CDB2D942A95E18D00030EDF /* SessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
 		3CDB2D962A95E1B300030EDF /* SessionUserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionUserDetails.swift; sourceTree = "<group>"; };
 		3CDB2D982A95E21400030EDF /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
@@ -208,9 +208,9 @@
 		3CDB2D212A95DECF00030EDF /* ios_roamantik_app */ = {
 			isa = PBXGroup;
 			children = (
+				3C2D296C2A96FF6C0056F3E4 /* GoogleService-Info.plist */,
 				3CDB2D8D2A95E11E00030EDF /* Features */,
 				3CDB2D8A2A95E0E900030EDF /* Base */,
-				3CDB2D512A95DF6D00030EDF /* GoogleService-Info.plist */,
 				3CDB2D222A95DECF00030EDF /* ios_roamantik_appApp.swift */,
 				3CDB2D242A95DECF00030EDF /* ContentView.swift */,
 				3CDB2D262A95DED000030EDF /* Assets.xcassets */,
@@ -640,6 +640,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CDB2D2A2A95DED000030EDF /* Preview Assets.xcassets in Resources */,
+				3C2D296D2A96FF6C0056F3E4 /* GoogleService-Info.plist in Resources */,
 				3CDB2D272A95DED000030EDF /* Assets.xcassets in Resources */,
 				3CDB2D522A95DF6E00030EDF /* GoogleService-Info.plist in Resources */,
 			);

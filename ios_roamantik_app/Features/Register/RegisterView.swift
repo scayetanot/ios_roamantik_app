@@ -9,13 +9,21 @@ import SwiftUI
 
 struct RegisterView: View {
     
+<<<<<<< HEAD
     @StateObject private var viewModel = RegistrationViewModelImpl(service: RegistrationServiceImpl()
     )
+=======
+    @StateObject private var viewModel = RegistrationViewModelImpl(service: RegistrationServiceImpl())
+>>>>>>> 78356b6 (Commit drafted project)
     
     init() {
          UINavigationBar.appearance().largeTitleTextAttributes = [
             .foregroundColor: UIColor(red: 0, green: (174/255), blue: (239/255), alpha: 1.0),
+<<<<<<< HEAD
                    .font : UIFont(name:"Pacifico-Regular", size: 50)!]
+=======
+                  /* .font : UIFont(name:"Pacifico-Regular", size: 50)*/]
+>>>>>>> 78356b6 (Commit drafted project)
 
     }
     
@@ -47,7 +55,11 @@ struct RegisterView: View {
                     
                 }
             }
+<<<<<<< HEAD
             .navigationTitle("Fizzin")
+=======
+            .navigationTitle("Roamantik")
+>>>>>>> 78356b6 (Commit drafted project)
             .applyClose()
         }
     }
