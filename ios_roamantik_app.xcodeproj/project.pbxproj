@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CDB2D232A95DECF00030EDF /* ios_roamantik_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2D222A95DECF00030EDF /* ios_roamantik_appApp.swift */; };
+		3CDB2D252A95DECF00030EDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2D242A95DECF00030EDF /* ContentView.swift */; };
+		3CDB2D272A95DED000030EDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDB2D262A95DED000030EDF /* Assets.xcassets */; };
+		3CDB2D2A2A95DED000030EDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDB2D292A95DED000030EDF /* Preview Assets.xcassets */; };
+		3CDB2D2C2A95DED000030EDF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2D2B2A95DED000030EDF /* Persistence.swift */; };
+		3CDB2D2F2A95DED000030EDF /* ios_roamantik_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2D2D2A95DED000030EDF /* ios_roamantik_app.xcdatamodeld */; };
+		3CDB2D392A95DED000030EDF /* ios_roamantik_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2D382A95DED000030EDF /* ios_roamantik_appTests.swift */; };
+		3CDB2D432A95DED000030EDF /* ios_roamantik_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2D422A95DED000030EDF /* ios_roamantik_appUITests.swift */; };
+		3CDB2D452A95DED000030EDF /* ios_roamantik_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2D442A95DED000030EDF /* ios_roamantik_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CDB2D352A95DED000030EDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CDB2D172A95DECF00030EDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CDB2D1E2A95DECF00030EDF;
+			remoteInfo = ios_roamantik_app;
+		};
+		3CDB2D3F2A95DED000030EDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CDB2D172A95DECF00030EDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CDB2D1E2A95DECF00030EDF;
+			remoteInfo = ios_roamantik_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CDB2D1F2A95DECF00030EDF /* ios_roamantik_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_roamantik_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDB2D222A95DECF00030EDF /* ios_roamantik_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_roamantik_appApp.swift; sourceTree = "<group>"; };
+		3CDB2D242A95DECF00030EDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CDB2D262A95DED000030EDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CDB2D292A95DED000030EDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CDB2D2B2A95DED000030EDF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3CDB2D2E2A95DED000030EDF /* ios_roamantik_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ios_roamantik_app.xcdatamodel; sourceTree = "<group>"; };
+		3CDB2D342A95DED000030EDF /* ios_roamantik_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_roamantik_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDB2D382A95DED000030EDF /* ios_roamantik_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_roamantik_appTests.swift; sourceTree = "<group>"; };
+		3CDB2D3E2A95DED000030EDF /* ios_roamantik_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_roamantik_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDB2D422A95DED000030EDF /* ios_roamantik_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_roamantik_appUITests.swift; sourceTree = "<group>"; };
+		3CDB2D442A95DED000030EDF /* ios_roamantik_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_roamantik_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CDB2D1C2A95DECF00030EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDB2D312A95DED000030EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDB2D3B2A95DED000030EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CDB2D162A95DECF00030EDF = {
+			isa = PBXGroup;
+			children = (
+				3CDB2D212A95DECF00030EDF /* ios_roamantik_app */,
+				3CDB2D372A95DED000030EDF /* ios_roamantik_appTests */,
+				3CDB2D412A95DED000030EDF /* ios_roamantik_appUITests */,
+				3CDB2D202A95DECF00030EDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CDB2D202A95DECF00030EDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CDB2D1F2A95DECF00030EDF /* ios_roamantik_app.app */,
+				3CDB2D342A95DED000030EDF /* ios_roamantik_appTests.xctest */,
+				3CDB2D3E2A95DED000030EDF /* ios_roamantik_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CDB2D212A95DECF00030EDF /* ios_roamantik_app */ = {
+			isa = PBXGroup;
+			children = (
+				3CDB2D222A95DECF00030EDF /* ios_roamantik_appApp.swift */,
+				3CDB2D242A95DECF00030EDF /* ContentView.swift */,
+				3CDB2D262A95DED000030EDF /* Assets.xcassets */,
+				3CDB2D2B2A95DED000030EDF /* Persistence.swift */,
+				3CDB2D2D2A95DED000030EDF /* ios_roamantik_app.xcdatamodeld */,
+				3CDB2D282A95DED000030EDF /* Preview Content */,
+			);
+			path = ios_roamantik_app;
+			sourceTree = "<group>";
+		};
+		3CDB2D282A95DED000030EDF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CDB2D292A95DED000030EDF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CDB2D372A95DED000030EDF /* ios_roamantik_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CDB2D382A95DED000030EDF /* ios_roamantik_appTests.swift */,
+			);
+			path = ios_roamantik_appTests;
+			sourceTree = "<group>";
+		};
+		3CDB2D412A95DED000030EDF /* ios_roamantik_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CDB2D422A95DED000030EDF /* ios_roamantik_appUITests.swift */,
+				3CDB2D442A95DED000030EDF /* ios_roamantik_appUITestsLaunchTests.swift */,
+			);
+			path = ios_roamantik_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CDB2D1E2A95DECF00030EDF /* ios_roamantik_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDB2D482A95DED000030EDF /* Build configuration list for PBXNativeTarget "ios_roamantik_app" */;
+			buildPhases = (
+				3CDB2D1B2A95DECF00030EDF /* Sources */,
+				3CDB2D1C2A95DECF00030EDF /* Frameworks */,
+				3CDB2D1D2A95DECF00030EDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ios_roamantik_app;
+			productName = ios_roamantik_app;
+			productReference = 3CDB2D1F2A95DECF00030EDF /* ios_roamantik_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CDB2D332A95DED000030EDF /* ios_roamantik_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDB2D4B2A95DED000030EDF /* Build configuration list for PBXNativeTarget "ios_roamantik_appTests" */;
+			buildPhases = (
+				3CDB2D302A95DED000030EDF /* Sources */,
+				3CDB2D312A95DED000030EDF /* Frameworks */,
+				3CDB2D322A95DED000030EDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CDB2D362A95DED000030EDF /* PBXTargetDependency */,
+			);
+			name = ios_roamantik_appTests;
+			productName = ios_roamantik_appTests;
+			productReference = 3CDB2D342A95DED000030EDF /* ios_roamantik_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CDB2D3D2A95DED000030EDF /* ios_roamantik_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDB2D4E2A95DED000030EDF /* Build configuration list for PBXNativeTarget "ios_roamantik_appUITests" */;
+			buildPhases = (
+				3CDB2D3A2A95DED000030EDF /* Sources */,
+				3CDB2D3B2A95DED000030EDF /* Frameworks */,
+				3CDB2D3C2A95DED000030EDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CDB2D402A95DED000030EDF /* PBXTargetDependency */,
+			);
+			name = ios_roamantik_appUITests;
+			productName = ios_roamantik_appUITests;
+			productReference = 3CDB2D3E2A95DED000030EDF /* ios_roamantik_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CDB2D172A95DECF00030EDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3CDB2D1E2A95DECF00030EDF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					3CDB2D332A95DED000030EDF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3CDB2D1E2A95DECF00030EDF;
+					};
+					3CDB2D3D2A95DED000030EDF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3CDB2D1E2A95DECF00030EDF;
+					};
+				};
+			};
+			buildConfigurationList = 3CDB2D1A2A95DECF00030EDF /* Build configuration list for PBXProject "ios_roamantik_app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CDB2D162A95DECF00030EDF;
+			productRefGroup = 3CDB2D202A95DECF00030EDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CDB2D1E2A95DECF00030EDF /* ios_roamantik_app */,
+				3CDB2D332A95DED000030EDF /* ios_roamantik_appTests */,
+				3CDB2D3D2A95DED000030EDF /* ios_roamantik_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CDB2D1D2A95DECF00030EDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDB2D2A2A95DED000030EDF /* Preview Assets.xcassets in Resources */,
+				3CDB2D272A95DED000030EDF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDB2D322A95DED000030EDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDB2D3C2A95DED000030EDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CDB2D1B2A95DECF00030EDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDB2D2C2A95DED000030EDF /* Persistence.swift in Sources */,
+				3CDB2D252A95DECF00030EDF /* ContentView.swift in Sources */,
+				3CDB2D2F2A95DED000030EDF /* ios_roamantik_app.xcdatamodeld in Sources */,
+				3CDB2D232A95DECF00030EDF /* ios_roamantik_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDB2D302A95DED000030EDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDB2D392A95DED000030EDF /* ios_roamantik_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDB2D3A2A95DED000030EDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDB2D432A95DED000030EDF /* ios_roamantik_appUITests.swift in Sources */,
+				3CDB2D452A95DED000030EDF /* ios_roamantik_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CDB2D362A95DED000030EDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CDB2D1E2A95DECF00030EDF /* ios_roamantik_app */;
+			targetProxy = 3CDB2D352A95DED000030EDF /* PBXContainerItemProxy */;
+		};
+		3CDB2D402A95DED000030EDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CDB2D1E2A95DECF00030EDF /* ios_roamantik_app */;
+			targetProxy = 3CDB2D3F2A95DED000030EDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CDB2D462A95DED000030EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CDB2D472A95DED000030EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CDB2D492A95DED000030EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ios_roamantik_app/Preview Content\"";
+				DEVELOPMENT_TEAM = AYAPBWH8B2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whatevr.ios-roamantik-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CDB2D4A2A95DED000030EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ios_roamantik_app/Preview Content\"";
+				DEVELOPMENT_TEAM = AYAPBWH8B2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whatevr.ios-roamantik-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CDB2D4C2A95DED000030EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYAPBWH8B2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whatevr.ios-roamantik-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios_roamantik_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios_roamantik_app";
+			};
+			name = Debug;
+		};
+		3CDB2D4D2A95DED000030EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYAPBWH8B2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whatevr.ios-roamantik-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios_roamantik_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios_roamantik_app";
+			};
+			name = Release;
+		};
+		3CDB2D4F2A95DED000030EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYAPBWH8B2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whatevr.ios-roamantik-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ios_roamantik_app;
+			};
+			name = Debug;
+		};
+		3CDB2D502A95DED000030EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYAPBWH8B2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whatevr.ios-roamantik-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ios_roamantik_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CDB2D1A2A95DECF00030EDF /* Build configuration list for PBXProject "ios_roamantik_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDB2D462A95DED000030EDF /* Debug */,
+				3CDB2D472A95DED000030EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CDB2D482A95DED000030EDF /* Build configuration list for PBXNativeTarget "ios_roamantik_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDB2D492A95DED000030EDF /* Debug */,
+				3CDB2D4A2A95DED000030EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CDB2D4B2A95DED000030EDF /* Build configuration list for PBXNativeTarget "ios_roamantik_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDB2D4C2A95DED000030EDF /* Debug */,
+				3CDB2D4D2A95DED000030EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CDB2D4E2A95DED000030EDF /* Build configuration list for PBXNativeTarget "ios_roamantik_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDB2D4F2A95DED000030EDF /* Debug */,
+				3CDB2D502A95DED000030EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3CDB2D2D2A95DED000030EDF /* ios_roamantik_app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3CDB2D2E2A95DED000030EDF /* ios_roamantik_app.xcdatamodel */,
+			);
+			currentVersion = 3CDB2D2E2A95DED000030EDF /* ios_roamantik_app.xcdatamodel */;
+			path = ios_roamantik_app.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3CDB2D172A95DECF00030EDF /* Project object */;
+}
