@@ -67,16 +67,16 @@ private extension SessionServiceImpl {
                                 .child(uid)
                                 .observe(.value) { [weak self] snapshot,tmp  in
                                     
-                                    guard let self = self,
-                                          let value = snapshot.value as? NSDictionary,
-                                          let userName = value[RegistrationKeys.userName.rawValue] as? String
-                                    else {
-                                        return
-                                    }
+                                  //  guard let self = self,
+                                  //        let value = snapshot.value as? NSDictionary,
+                                  //        let userName = value[RegistrationKeys.userName.rawValue] as? String
+                                  //  else {
+                                  //      return
+                                  //  }
 
-                                    DispatchQueue.main.async {
-                                        self.userDetails = SessionUserDetails(userName: userName)
-                                    }
+                                  //  DispatchQueue.main.async {
+                                  //      self.userDetails = SessionUserDetails(userName: userName)
+                                    //  }
                                 }
                         }
                     }

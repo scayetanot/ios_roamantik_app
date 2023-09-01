@@ -31,7 +31,7 @@ struct ios_roamantik_appApp: App {
                     HomeView()
                         .environmentObject(sessionService)
                 case .loggedOut:
-                    LoginView()
+                    LoginRegisterView()
                 }
             }
         }

@@ -51,18 +51,14 @@
 		3CDB2D9D2A95E25F00030EDF /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2D9C2A95E25F00030EDF /* FeedView.swift */; };
 		3CDB2DA02A95E2AA00030EDF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2D9F2A95E2AA00030EDF /* MapView.swift */; };
 		3CDB2DA32A95E2E600030EDF /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DA22A95E2E600030EDF /* AccountView.swift */; };
-		3CDB2DA92A95E32700030EDF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DA82A95E32700030EDF /* LoginView.swift */; };
-		3CDB2DAB2A95E36100030EDF /* LoginCredentialsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DAA2A95E36100030EDF /* LoginCredentialsModel.swift */; };
+		3CDB2DA92A95E32700030EDF /* LoginRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DA82A95E32700030EDF /* LoginRegisterView.swift */; };
+		3CDB2DAB2A95E36100030EDF /* CredentialsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DAA2A95E36100030EDF /* CredentialsModel.swift */; };
 		3CDB2DAD2A95E37C00030EDF /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DAC2A95E37C00030EDF /* LoginService.swift */; };
 		3CDB2DAF2A95E39800030EDF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DAE2A95E39800030EDF /* LoginViewModel.swift */; };
 		3CDB2DB12A95E3D600030EDF /* RoamantikColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DB02A95E3D600030EDF /* RoamantikColors.swift */; };
 		3CDB2DB62A95E42D00030EDF /* ForgotPasswordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DB52A95E42D00030EDF /* ForgotPasswordService.swift */; };
 		3CDB2DB82A95E44200030EDF /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DB72A95E44200030EDF /* ForgotPasswordViewModel.swift */; };
 		3CDB2DBA2A95E45F00030EDF /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DB92A95E45F00030EDF /* ForgotPasswordView.swift */; };
-		3CDB2DC02A95E4B600030EDF /* RegistrationKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DBF2A95E4B600030EDF /* RegistrationKeys.swift */; };
-		3CDB2DC22A95E4D600030EDF /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DC12A95E4D600030EDF /* RegistrationViewModel.swift */; };
-		3CDB2DC42A95E4F000030EDF /* RegistrationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DC32A95E4F000030EDF /* RegistrationModel.swift */; };
-		3CDB2DC62A95E55300030EDF /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DC52A95E55300030EDF /* RegisterView.swift */; };
 		3CDB2DC82A95E58300030EDF /* PreviewLayoutComponentModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DC72A95E58300030EDF /* PreviewLayoutComponentModifier.swift */; };
 		3CDB2DCA2A95E59500030EDF /* CloseModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DC92A95E59500030EDF /* CloseModifier.swift */; };
 		3CDB2DCC2A95E5AE00030EDF /* InputTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DCB2A95E5AE00030EDF /* InputTextFieldView.swift */; };
@@ -111,18 +107,14 @@
 		3CDB2D9C2A95E25F00030EDF /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		3CDB2D9F2A95E2AA00030EDF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		3CDB2DA22A95E2E600030EDF /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
-		3CDB2DA82A95E32700030EDF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		3CDB2DAA2A95E36100030EDF /* LoginCredentialsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCredentialsModel.swift; sourceTree = "<group>"; };
+		3CDB2DA82A95E32700030EDF /* LoginRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterView.swift; sourceTree = "<group>"; };
+		3CDB2DAA2A95E36100030EDF /* CredentialsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsModel.swift; sourceTree = "<group>"; };
 		3CDB2DAC2A95E37C00030EDF /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		3CDB2DAE2A95E39800030EDF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		3CDB2DB02A95E3D600030EDF /* RoamantikColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoamantikColors.swift; sourceTree = "<group>"; };
 		3CDB2DB52A95E42D00030EDF /* ForgotPasswordService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordService.swift; sourceTree = "<group>"; };
 		3CDB2DB72A95E44200030EDF /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
 		3CDB2DB92A95E45F00030EDF /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
-		3CDB2DBF2A95E4B600030EDF /* RegistrationKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationKeys.swift; sourceTree = "<group>"; };
-		3CDB2DC12A95E4D600030EDF /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
-		3CDB2DC32A95E4F000030EDF /* RegistrationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationModel.swift; sourceTree = "<group>"; };
-		3CDB2DC52A95E55300030EDF /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		3CDB2DC72A95E58300030EDF /* PreviewLayoutComponentModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewLayoutComponentModifier.swift; sourceTree = "<group>"; };
 		3CDB2DC92A95E59500030EDF /* CloseModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseModifier.swift; sourceTree = "<group>"; };
 		3CDB2DCB2A95E5AE00030EDF /* InputTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextFieldView.swift; sourceTree = "<group>"; };
@@ -281,9 +273,8 @@
 				3CDB2DD92A95E6FB00030EDF /* Discovery */,
 				3CDB2DD52A95E6C800030EDF /* Add */,
 				3CDB2DD12A95E68100030EDF /* Notifications */,
-				3CDB2DBB2A95E49100030EDF /* Register */,
 				3CDB2DB22A95E40500030EDF /* ForgotPassword */,
-				3CDB2DA42A95E2F900030EDF /* Login */,
+				3CDB2DA42A95E2F900030EDF /* LoginRegister */,
 				3CDB2DA12A95E2D800030EDF /* Account */,
 				3CDB2D9E2A95E29500030EDF /* Map */,
 				3CDB2D912A95E15600030EDF /* Session */,
@@ -359,15 +350,15 @@
 			path = Account;
 			sourceTree = "<group>";
 		};
-		3CDB2DA42A95E2F900030EDF /* Login */ = {
+		3CDB2DA42A95E2F900030EDF /* LoginRegister */ = {
 			isa = PBXGroup;
 			children = (
 				3CDB2DA72A95E30E00030EDF /* Model */,
 				3CDB2DA62A95E30700030EDF /* Service */,
 				3CDB2DA52A95E30000030EDF /* ViewModel */,
-				3CDB2DA82A95E32700030EDF /* LoginView.swift */,
+				3CDB2DA82A95E32700030EDF /* LoginRegisterView.swift */,
 			);
-			path = Login;
+			path = LoginRegister;
 			sourceTree = "<group>";
 		};
 		3CDB2DA52A95E30000030EDF /* ViewModel */ = {
@@ -389,7 +380,7 @@
 		3CDB2DA72A95E30E00030EDF /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3CDB2DAA2A95E36100030EDF /* LoginCredentialsModel.swift */,
+				3CDB2DAA2A95E36100030EDF /* CredentialsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -416,41 +407,6 @@
 			isa = PBXGroup;
 			children = (
 				3CDB2DB52A95E42D00030EDF /* ForgotPasswordService.swift */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		3CDB2DBB2A95E49100030EDF /* Register */ = {
-			isa = PBXGroup;
-			children = (
-				3CDB2DBE2A95E4A500030EDF /* Service */,
-				3CDB2DBD2A95E49E00030EDF /* ViewModel */,
-				3CDB2DBC2A95E49900030EDF /* Model */,
-				3CDB2DC52A95E55300030EDF /* RegisterView.swift */,
-			);
-			path = Register;
-			sourceTree = "<group>";
-		};
-		3CDB2DBC2A95E49900030EDF /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				3CDB2DC32A95E4F000030EDF /* RegistrationModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		3CDB2DBD2A95E49E00030EDF /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				3CDB2DC12A95E4D600030EDF /* RegistrationViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		3CDB2DBE2A95E4A500030EDF /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				3CDB2DBF2A95E4B600030EDF /* RegistrationKeys.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -670,7 +626,6 @@
 				3CDB2D2C2A95DED000030EDF /* Persistence.swift in Sources */,
 				3CDB2D9D2A95E25F00030EDF /* FeedView.swift in Sources */,
 				3CDB2DD82A95E6DF00030EDF /* AddView.swift in Sources */,
-				3CDB2DC42A95E4F000030EDF /* RegistrationModel.swift in Sources */,
 				3CDB2DCC2A95E5AE00030EDF /* InputTextFieldView.swift in Sources */,
 				3CDB2D952A95E18D00030EDF /* SessionService.swift in Sources */,
 				3CDB2DCE2A95E5C600030EDF /* InputPasswordView.swift in Sources */,
@@ -681,11 +636,9 @@
 				3CDB2DB82A95E44200030EDF /* ForgotPasswordViewModel.swift in Sources */,
 				3CDB2D252A95DECF00030EDF /* ContentView.swift in Sources */,
 				3CDB2DC82A95E58300030EDF /* PreviewLayoutComponentModifier.swift in Sources */,
-				3CDB2DC62A95E55300030EDF /* RegisterView.swift in Sources */,
 				3CDB2DDC2A95E71700030EDF /* SearchView.swift in Sources */,
-				3CDB2DA92A95E32700030EDF /* LoginView.swift in Sources */,
+				3CDB2DA92A95E32700030EDF /* LoginRegisterView.swift in Sources */,
 				3CDB2D2F2A95DED000030EDF /* ios_roamantik_app.xcdatamodeld in Sources */,
-				3CDB2DC22A95E4D600030EDF /* RegistrationViewModel.swift in Sources */,
 				3CDB2DD42A95E6A200030EDF /* NotificationsView.swift in Sources */,
 				3CDB2DBA2A95E45F00030EDF /* ForgotPasswordView.swift in Sources */,
 				3CDB2DAF2A95E39800030EDF /* LoginViewModel.swift in Sources */,
@@ -694,8 +647,7 @@
 				3CDB2D232A95DECF00030EDF /* ios_roamantik_appApp.swift in Sources */,
 				3CDB2DB62A95E42D00030EDF /* ForgotPasswordService.swift in Sources */,
 				3CDB2DCA2A95E59500030EDF /* CloseModifier.swift in Sources */,
-				3CDB2DC02A95E4B600030EDF /* RegistrationKeys.swift in Sources */,
-				3CDB2DAB2A95E36100030EDF /* LoginCredentialsModel.swift in Sources */,
+				3CDB2DAB2A95E36100030EDF /* CredentialsModel.swift in Sources */,
 				3CDB2D992A95E21400030EDF /* Tab.swift in Sources */,
 				3CDB2DAD2A95E37C00030EDF /* LoginService.swift in Sources */,
 			);

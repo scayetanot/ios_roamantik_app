@@ -8,6 +8,12 @@
 import SwiftUI
 
 struct RoamantikColors {
-    static let cVividBlue = Color("VividBlue")
-    static let cBoldOrange = Color("BoldOrange")
+    static let cSoftBeige = Color("SoftBeige")
+    static let cNeutralGrey = Color("NeutralGrey")
+    static let cNaturalGreen = Color("NaturalGreen")
+    static let cGoldenYellow = Color("GoldenYellow")
+    static let cDeepBlue = Color("DeepBlue")
+
+    
+    
 }

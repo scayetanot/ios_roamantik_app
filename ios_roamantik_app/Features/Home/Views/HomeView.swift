@@ -36,21 +36,21 @@ struct HomeView: View {
             }
             HStack(spacing: 0) {
                 ForEach(["list.bullet", "map", "message", "person"], id: \.self){ image in
-                    TabItem(image: image, isSystemImage: (image == "plus.app") ? false : true, currentTab: $currentTab)
+                    TabItem(image: image, currentTab: $currentTab)
                     
                 }
             }
             .padding(.horizontal)
             .padding(.vertical, 15)
         }
-        .background(.black)
+        .background(.ultraThinMaterial, in : RoundedRectangle(cornerRadius: 45.0))
+        .ignoresSafeArea()
 
     }
 }
 
 struct TabItem: View {
     var image: String
-    var isSystemImage: Bool
     @Binding var currentTab: String
     
     var body: some View {
@@ -58,16 +58,12 @@ struct TabItem: View {
             withAnimation{currentTab = image}
         } label: {
             ZStack {
-                if isSystemImage {
-                    Image(systemName: image)
-                        .font(.system(size: 30, weight: .none))
-                } else {
-                    Image(systemName: image)
-                        .font(.system(size: 30, weight: .bold))
-                }
+                Image(systemName: image)
+                    .font(.system(size: 25, weight: .none))
             }
-            .foregroundColor(currentTab == image ? RoamantikColors.cVividBlue : .gray)
+            .foregroundColor(currentTab == image ? RoamantikColors.cDeepBlue : .gray)
             .frame(maxWidth: .infinity)
+            .padding(10)
             
         }
     }

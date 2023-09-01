@@ -19,7 +19,7 @@ struct AccountView: View {
 
                     Image(systemName: "arrow.right.to.line.circle")
                         .font(.system(size: 40, weight: .heavy))
-                        .foregroundColor(RoamantikColors.cBoldOrange)
+                        .foregroundColor(RoamantikColors.cDeepBlue)
                         .padding(.trailing)
 
                 }

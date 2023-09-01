@@ -21,7 +21,7 @@ struct ButtonView: View {
     private let cornerRadius: CGFloat = 10
     
     internal init(title: String,
-                  background: Color = RoamantikColors.cVividBlue,
+                  background: Color = RoamantikColors.cDeepBlue,
                   foreground: Color = .white,
                   border: Color = .clear,
                   handler: @escaping ButtonView.ActionHandler) {
@@ -48,17 +48,17 @@ struct ButtonView: View {
     }
 }
 
-struct ButtonComponentView_Previews: PreviewProvider {
-    static var previews: some View {
-        Group {
-            ButtonView(title: "Primary Button"){}
-                .padding()
-            ButtonView(title: "Seconday Button",
-                       background: .clear,
-                       foreground: RoamantikColors.cVividBlue,
-                       border: RoamantikColors.cVividBlue){}
-                .padding()
-        }
+//struct ButtonComponentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        Group {
+//            ButtonView(title: "Primary Button"){}
+//               // .padding()
+//            ButtonView(title: "Seconday Button",
+//                       background: .clear,
+//                       foreground: RoamantikColors.cVividBlue,
+//                       border: RoamantikColors.cVividBlue){}
+//                .padding()
+//        }
 
-    }
-}
+//    }
+//}

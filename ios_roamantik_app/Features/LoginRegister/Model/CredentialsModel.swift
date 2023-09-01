@@ -7,14 +7,14 @@
 
 import Foundation
 
-struct LoginCredentialsModel {
+struct CredentialsModel {
     var email: String
     var password: String
 }
 
-extension LoginCredentialsModel {
+extension CredentialsModel {
     
-    static var new: LoginCredentialsModel {
-        LoginCredentialsModel(email: "", password: "")
+    static var new: CredentialsModel {
+        CredentialsModel(email: "", password: "")
     }
 }

@@ -38,20 +38,8 @@ struct FeedView: View {
         NavigationView {
             ZStack {
                 VStack() {
-                    HStack(spacing: 0) {
-                        Picker("", selection: $selectedFilter) {
-                            ForEach(filters) { filter in
-                                Text(filter.name)
-                                    .foregroundColor(.red)
-                            }
-                        }
-                        .foregroundColor(.black)
-                        .pickerStyle(.menu)
-                        .background(.ultraThinMaterial, in : RoundedRectangle(cornerRadius: 45.0))
-                        
+                    HStack() {
                         Spacer()
-                        Spacer()
-                        
                         HStack {
                             NavigationLink(destination: AddView()) {
                                 Image(systemName: "plus.circle")
