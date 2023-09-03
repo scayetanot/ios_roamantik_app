@@ -3,6 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
+<<<<<<< HEAD
 	<string>793380509507-120a3vb4ac3vfkdjnjas0qom62vvmdk8.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
 	<string>com.googleusercontent.apps.793380509507-120a3vb4ac3vfkdjnjas0qom62vvmdk8</string>
@@ -18,6 +19,23 @@
 	<string>roamantik-55414</string>
 	<key>STORAGE_BUCKET</key>
 	<string>roamantik-55414.appspot.com</string>
+=======
+	<string>798292852014-4vtvcq8eqbrc2rvjfa6fqq2fhet44p4r.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.798292852014-4vtvcq8eqbrc2rvjfa6fqq2fhet44p4r</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAtWwLEE2_P8I-C8QRZh82JUYoyGCrQtp4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>798292852014</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.roamantikApp</string>
+	<key>PROJECT_ID</key>
+	<string>roamantik-service</string>
+	<key>STORAGE_BUCKET</key>
+	<string>roamantik-service.appspot.com</string>
+>>>>>>> 49a15cf (Finish Login/Signup process)
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +47,10 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
+<<<<<<< HEAD
 	<string>1:793380509507:ios:3ce8eecb4b0512f78dc1f6</string>
+=======
+	<string>1:798292852014:ios:766c1e9342ee78e88ccebf</string>
+>>>>>>> 49a15cf (Finish Login/Signup process)
 </dict>
 </plist>
