@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3CBDCE362AA40599003742A8 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CBDCE352AA40599003742A8 /* Pacifico-Regular.ttf */; };
-		3CBDCE392AA40B6B003742A8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CBDCE382AA40B6B003742A8 /* GoogleService-Info.plist */; };
+		3CBDCE3B2AA4106F003742A8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CBDCE3A2AA4106F003742A8 /* GoogleService-Info.plist */; };
+		3CBDCE3F2AA411FB003742A8 /* RoamantikColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBDCE3E2AA411FB003742A8 /* RoamantikColors.swift */; };
 		3CDB2D232A95DECF00030EDF /* ios_roamantik_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2D222A95DECF00030EDF /* ios_roamantik_appApp.swift */; };
 		3CDB2D252A95DECF00030EDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2D242A95DECF00030EDF /* ContentView.swift */; };
 		3CDB2D272A95DED000030EDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDB2D262A95DED000030EDF /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 		3CDB2D392A95DED000030EDF /* ios_roamantik_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2D382A95DED000030EDF /* ios_roamantik_appTests.swift */; };
 		3CDB2D432A95DED000030EDF /* ios_roamantik_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2D422A95DED000030EDF /* ios_roamantik_appUITests.swift */; };
 		3CDB2D452A95DED000030EDF /* ios_roamantik_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2D442A95DED000030EDF /* ios_roamantik_appUITestsLaunchTests.swift */; };
+		3CDB2D522A95DF6E00030EDF /* (null) in Resources */ = {isa = PBXBuildFile; };
 		3CDB2D552A95E08B00030EDF /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3CDB2D542A95E08B00030EDF /* FirebaseAnalytics */; };
 		3CDB2D572A95E08B00030EDF /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 3CDB2D562A95E08B00030EDF /* FirebaseAnalyticsOnDeviceConversion */; };
 		3CDB2D592A95E08B00030EDF /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3CDB2D582A95E08B00030EDF /* FirebaseAnalyticsSwift */; };
@@ -56,12 +58,6 @@
 		3CDB2DAB2A95E36100030EDF /* CredentialsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DAA2A95E36100030EDF /* CredentialsModel.swift */; };
 		3CDB2DAD2A95E37C00030EDF /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DAC2A95E37C00030EDF /* LoginService.swift */; };
 		3CDB2DAF2A95E39800030EDF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DAE2A95E39800030EDF /* LoginViewModel.swift */; };
-		3CDB2DB12A95E3D600030EDF /* RoamantikColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DB02A95E3D600030EDF /* RoamantikColors.swift */; };
-		3CDB2DC82A95E58300030EDF /* PreviewLayoutComponentModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DC72A95E58300030EDF /* PreviewLayoutComponentModifier.swift */; };
-		3CDB2DCA2A95E59500030EDF /* CloseModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DC92A95E59500030EDF /* CloseModifier.swift */; };
-		3CDB2DCC2A95E5AE00030EDF /* InputTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DCB2A95E5AE00030EDF /* InputTextFieldView.swift */; };
-		3CDB2DCE2A95E5C600030EDF /* InputPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DCD2A95E5C600030EDF /* InputPasswordView.swift */; };
-		3CDB2DD02A95E5F300030EDF /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DCF2A95E5F300030EDF /* ButtonView.swift */; };
 		3CDB2DD42A95E6A200030EDF /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DD32A95E6A200030EDF /* NotificationsView.swift */; };
 		3CDB2DD82A95E6DF00030EDF /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DD72A95E6DF00030EDF /* AddView.swift */; };
 		3CDB2DDC2A95E71700030EDF /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2DDB2A95E71700030EDF /* SearchView.swift */; };
@@ -87,7 +83,8 @@
 /* Begin PBXFileReference section */
 		3CBDCE352AA40599003742A8 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		3CBDCE372AA40652003742A8 /* ios-roamantik-app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ios-roamantik-app-Info.plist"; sourceTree = SOURCE_ROOT; };
-		3CBDCE382AA40B6B003742A8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3CBDCE3A2AA4106F003742A8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3CBDCE3E2AA411FB003742A8 /* RoamantikColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoamantikColors.swift; sourceTree = "<group>"; };
 		3CDB2D1F2A95DECF00030EDF /* ios_roamantik_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_roamantik_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CDB2D222A95DECF00030EDF /* ios_roamantik_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_roamantik_appApp.swift; sourceTree = "<group>"; };
 		3CDB2D242A95DECF00030EDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,12 +108,6 @@
 		3CDB2DAA2A95E36100030EDF /* CredentialsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsModel.swift; sourceTree = "<group>"; };
 		3CDB2DAC2A95E37C00030EDF /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		3CDB2DAE2A95E39800030EDF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		3CDB2DB02A95E3D600030EDF /* RoamantikColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoamantikColors.swift; sourceTree = "<group>"; };
-		3CDB2DC72A95E58300030EDF /* PreviewLayoutComponentModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewLayoutComponentModifier.swift; sourceTree = "<group>"; };
-		3CDB2DC92A95E59500030EDF /* CloseModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseModifier.swift; sourceTree = "<group>"; };
-		3CDB2DCB2A95E5AE00030EDF /* InputTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextFieldView.swift; sourceTree = "<group>"; };
-		3CDB2DCD2A95E5C600030EDF /* InputPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputPasswordView.swift; sourceTree = "<group>"; };
-		3CDB2DCF2A95E5F300030EDF /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		3CDB2DD32A95E6A200030EDF /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		3CDB2DD72A95E6DF00030EDF /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		3CDB2DDB2A95E71700030EDF /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
@@ -182,6 +173,14 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		3CBDCE3C2AA411E7003742A8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3CBDCE3E2AA411FB003742A8 /* RoamantikColors.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		3CDB2D162A95DECF00030EDF = {
 			isa = PBXGroup;
 			children = (
@@ -205,11 +204,11 @@
 		3CDB2D212A95DECF00030EDF /* ios_roamantik_app */ = {
 			isa = PBXGroup;
 			children = (
-				3CBDCE382AA40B6B003742A8 /* GoogleService-Info.plist */,
+				3CBDCE3C2AA411E7003742A8 /* Base */,
+				3CBDCE3A2AA4106F003742A8 /* GoogleService-Info.plist */,
 				3CBDCE372AA40652003742A8 /* ios-roamantik-app-Info.plist */,
 				3CBDCE342AA4058B003742A8 /* Fonts */,
 				3CDB2D8D2A95E11E00030EDF /* Features */,
-				3CDB2D8A2A95E0E900030EDF /* Base */,
 				3CDB2D222A95DECF00030EDF /* ios_roamantik_appApp.swift */,
 				3CDB2D242A95DECF00030EDF /* ContentView.swift */,
 				3CDB2D262A95DED000030EDF /* Assets.xcassets */,
@@ -243,35 +242,6 @@
 				3CDB2D442A95DED000030EDF /* ios_roamantik_appUITestsLaunchTests.swift */,
 			);
 			path = ios_roamantik_appUITests;
-			sourceTree = "<group>";
-		};
-		3CDB2D8A2A95E0E900030EDF /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				3CDB2D8C2A95E10700030EDF /* Views */,
-				3CDB2D8B2A95E0F400030EDF /* Modifier */,
-				3CDB2DB02A95E3D600030EDF /* RoamantikColors.swift */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		3CDB2D8B2A95E0F400030EDF /* Modifier */ = {
-			isa = PBXGroup;
-			children = (
-				3CDB2DC72A95E58300030EDF /* PreviewLayoutComponentModifier.swift */,
-				3CDB2DC92A95E59500030EDF /* CloseModifier.swift */,
-			);
-			path = Modifier;
-			sourceTree = "<group>";
-		};
-		3CDB2D8C2A95E10700030EDF /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				3CDB2DCB2A95E5AE00030EDF /* InputTextFieldView.swift */,
-				3CDB2DCD2A95E5C600030EDF /* InputPasswordView.swift */,
-				3CDB2DCF2A95E5F300030EDF /* ButtonView.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		3CDB2D8D2A95E11E00030EDF /* Features */ = {
@@ -576,8 +546,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CDB2D2A2A95DED000030EDF /* Preview Assets.xcassets in Resources */,
-				3CBDCE392AA40B6B003742A8 /* GoogleService-Info.plist in Resources */,
 				3CBDCE362AA40599003742A8 /* Pacifico-Regular.ttf in Resources */,
+				3CBDCE3B2AA4106F003742A8 /* GoogleService-Info.plist in Resources */,
 				3CDB2D272A95DED000030EDF /* Assets.xcassets in Resources */,
 				3CDB2D522A95DF6E00030EDF /* GoogleService-Info.plist in Resources */,
 			);
@@ -607,15 +577,10 @@
 				3CDB2D2C2A95DED000030EDF /* Persistence.swift in Sources */,
 				3CDB2D9D2A95E25F00030EDF /* FeedView.swift in Sources */,
 				3CDB2DD82A95E6DF00030EDF /* AddView.swift in Sources */,
-				3CDB2DCC2A95E5AE00030EDF /* InputTextFieldView.swift in Sources */,
 				3CDB2D952A95E18D00030EDF /* SessionService.swift in Sources */,
-				3CDB2DCE2A95E5C600030EDF /* InputPasswordView.swift in Sources */,
-				3CDB2DD02A95E5F300030EDF /* ButtonView.swift in Sources */,
 				3CDB2D972A95E1B300030EDF /* SessionUserDetails.swift in Sources */,
-				3CDB2DB12A95E3D600030EDF /* RoamantikColors.swift in Sources */,
 				3CDB2DA32A95E2E600030EDF /* AccountView.swift in Sources */,
 				3CDB2D252A95DECF00030EDF /* ContentView.swift in Sources */,
-				3CDB2DC82A95E58300030EDF /* PreviewLayoutComponentModifier.swift in Sources */,
 				3CDB2DDC2A95E71700030EDF /* SearchView.swift in Sources */,
 				3CDB2DA92A95E32700030EDF /* LoginRegisterView.swift in Sources */,
 				3CDB2D2F2A95DED000030EDF /* ios_roamantik_app.xcdatamodeld in Sources */,
@@ -624,9 +589,9 @@
 				3CDB2D9B2A95E23900030EDF /* HomeView.swift in Sources */,
 				3CDB2DA02A95E2AA00030EDF /* MapView.swift in Sources */,
 				3CDB2D232A95DECF00030EDF /* ios_roamantik_appApp.swift in Sources */,
-				3CDB2DCA2A95E59500030EDF /* CloseModifier.swift in Sources */,
 				3CDB2DAB2A95E36100030EDF /* CredentialsModel.swift in Sources */,
 				3CDB2D992A95E21400030EDF /* Tab.swift in Sources */,
+				3CBDCE3F2AA411FB003742A8 /* RoamantikColors.swift in Sources */,
 				3CDB2DAD2A95E37C00030EDF /* LoginService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
