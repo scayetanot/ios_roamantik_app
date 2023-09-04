@@ -37,7 +37,6 @@ struct HomeView: View {
             HStack(spacing: 0) {
                 ForEach(["list.bullet", "map", "message", "person"], id: \.self){ image in
                     TabItem(image: image, currentTab: $currentTab)
-                    
                 }
             }
             .padding(.horizontal)
@@ -45,12 +44,12 @@ struct HomeView: View {
         }
         .background(.ultraThinMaterial, in : RoundedRectangle(cornerRadius: 45.0))
         .ignoresSafeArea()
-
     }
 }
 
 struct TabItem: View {
     var image: String
+
     @Binding var currentTab: String
     
     var body: some View {
@@ -64,7 +63,6 @@ struct TabItem: View {
             .foregroundColor(currentTab == image ? RoamantikColors.cDeepBlue : .gray)
             .frame(maxWidth: .infinity)
             .padding(10)
-            
         }
     }
     
