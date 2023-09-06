@@ -173,14 +173,6 @@ struct LoginRegisterView: View {
             }
             .padding(20)
         }
-        .padding(.top, 20)
-        .ignoresSafeArea()
-        .background(
-            Image("splash_1")
-                .resizable()
-                .edgesIgnoringSafeArea(.all)
-                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-        )
         .alert(isPresented: $viewModel.hasError, content: {
             if case .failed(let error) = viewModel.state {
                 return Alert(
@@ -192,6 +184,14 @@ struct LoginRegisterView: View {
                     message: Text("Something went wrong"))
             }
         })
+        .padding(.top, 20)
+        .ignoresSafeArea()
+        .background(
+            Image("splash_1")
+                .resizable()
+                .edgesIgnoringSafeArea(.all)
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+        )
     }
     
     
