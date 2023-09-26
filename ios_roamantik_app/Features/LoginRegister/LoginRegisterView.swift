@@ -145,7 +145,8 @@ struct LoginRegisterView: View {
                 .padding(.horizontal, 15)
                 .frame(minWidth: 0, maxWidth: screenWidth * 0.95, alignment: .top)
                 .background(.ultraThinMaterial, in : RoundedRectangle(cornerRadius: 16.0))
-                Spacer()
+                Spacer().frame(minHeight: 30, maxHeight: 30)
+                
             }
         }
         .sheet(isPresented: $showSheet) {
