@@ -51,35 +51,35 @@ private extension SessionServiceImpl {
     func setupFirebaseAuthHandler() {
         
         handler = Auth
-                    .auth()
-                    .addStateDidChangeListener { [weak self] _,_ in
-                        guard let self = self else { return }
+                .auth()
+                .addStateDidChangeListener { [weak self] _,_ in
+                    guard let self = self else { return }
+                    
+                    let currentUser = Auth.auth().currentUser
+                    self.state = currentUser == nil ? .loggedOut : .loggedIn
+                    
+                    if let uid = currentUser?.uid {
                         
-                        let currentUser = Auth.auth().currentUser
-                        self.state = currentUser == nil ? .loggedOut : .loggedIn
-                        
-                        if let uid = currentUser?.uid {
-                            
-                            Database
-                                .database()
-                                .reference()
-                                .child("users")
-                                .child(uid)
-                                .observe(.value) { [weak self] snapshot,tmp  in
-                                    
-                                  //  guard let self = self,
-                                  //        let value = snapshot.value as? NSDictionary,
-                                  //        let userName = value[RegistrationKeys.userName.rawValue] as? String
-                                  //  else {
-                                  //      return
-                                  //  }
-
-                                  //  DispatchQueue.main.async {
-                                  //      self.userDetails = SessionUserDetails(userName: userName)
-                                    //  }
+                        Database
+                            .database()
+                            .reference()
+                            .child("users")
+                            .child(uid)
+                            .observe(.value) { [weak self] snapshot,tmp  in
+                                
+                                guard let self = self,
+                                      let value = snapshot.value as? NSDictionary,
+                                      let userName = value[RegistrationKeys.userName.rawValue] as? String
+                                else {
+                                    return
                                 }
-                        }
+
+                                DispatchQueue.main.async {
+                                    self.userDetails = SessionUserDetails(userName: userName)
+                                }
+                            }
                     }
+                }
     
     }
     

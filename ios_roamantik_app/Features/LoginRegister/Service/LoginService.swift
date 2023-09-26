@@ -15,6 +15,10 @@ protocol LoginService {
     func resetPassword(with email: String) -> AnyPublisher<Void, Error>
 }
 
+enum RegistrationKeys: String {
+    case userName
+}
+
 final class LoginServiceImpl: LoginService {
     
     func login(with credentials: CredentialsModel) -> AnyPublisher<Void, Error> {
